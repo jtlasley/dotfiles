@@ -162,8 +162,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 "/usr/something/vim/colors I wonder if these colors will have better/more
 "syntax colorings.
 syntax enable
-set background=dark
-"colorscheme solarized
+"set background=dark
+colorscheme sourcerer
 "
 "
 "------------------------------------------------------------
