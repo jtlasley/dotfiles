@@ -44,8 +44,8 @@ if ! shopt -oq posix; then
 fi
 
 # making vim the default editor
-# export EDITOR=vim
-export EDITOR=~/bin/edit
+export EDITOR=vim
+# export EDITOR=~/bin/edit
 
 # Save each command to the history file as it's executed.  #517342
 # This does mean sessions get interleaved when reading later on, but this
