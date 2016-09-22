@@ -1,0 +1,23 @@
+
+!#include "/home/mk/.xres/colours/paper-dark"
+!#include "/home/mk/.xres/colours/jsphsnkr-color-set"
+
+#include "/home/mk/.Xresources.d/colors/sourcerer"
+
+
+URxvt.font: xft:terminus:pixelsize=14
+URxvt.letterspace: 10 
+
+URxvt.cursorBlink: true 
+
+URxvt.scrollBar: false
+
+URxvt.internalBorder: 10
+
+URxvt.perl-ext-common: default,clipboard  
+URxvt.iso14755: false  
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy  
+URxvt.keysym.Shit-Control-V: perl:clipboard:paste 
+URxvt.clipboard.copycmd: xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob 
+

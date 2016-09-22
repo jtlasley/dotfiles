@@ -1,0 +1,18 @@
+#!/bin/bash
+# Shell script to start or restart my wired_dchp netctl profile
+# mk 2016-09-21
+
+
+check=$(netctl is-active wired_dhcp) 
+
+if [ $check == 'inactive' ]
+then
+    echo 'profile inactive, starting profile'
+    netctl start wired_dhcp
+else
+    if [ $check == 'active' ]
+    then
+        echo 'profile active, restarting profile'
+        netctl restart wired_dhcp
+    fi
+fi

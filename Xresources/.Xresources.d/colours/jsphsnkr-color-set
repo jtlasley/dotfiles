@@ -1,0 +1,39 @@
+
+! special
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  blu
+
+! black
+*.color0:       bg
+*.color8:       fg
+
+! red
+*.color1:       red
+*.color9:       red
+
+! green
+*.color2:       grn
+*.color10:      grn
+
+! yellow
+*.color3:       grn
+*.color11:      grn
+
+! blue
+*.color4:       blu
+*.color12:      blu
+
+! magenta
+*.color5:       blu
+*.color13:      blu
+
+! cyan
+*.color6:       blu
+*.color14:      blu
+
+! white
+*.color7:       fg
+*.color15:      fg
+
+

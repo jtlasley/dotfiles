@@ -1,0 +1,9 @@
+! paper-dark
+! paper from jsphnskr but with the fg and bg values switched
+! 
+
+#define fg      #dddddd
+#define bg      #3c3c3b
+#define red     #5f819d
+#define grn     #545454
+#define blu     #777777
