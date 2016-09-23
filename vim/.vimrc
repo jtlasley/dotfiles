@@ -18,12 +18,29 @@ set nocompatible
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
-filetype indent plugin on
- 
+" filetype indent plugin on   " moved to below vundle
+
 " Enable syntax highlighting
-" syntax on
- 
- 
+" syntax on 
+"-----------------------------------------------------------
+"Vundle
+filetype off 
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle,
+Plugin 'VundleVim/Vundle.vim'
+
+" lightline.vim
+Plugin 'itchyny/lightline.vim'
+
+" sourcerer color scheme
+Plugin 'xero/sourcerer.vim'
+
+" Add all plugins before the following line
+call vundle#end()
+filetype plugin indent on
 "------------------------------------------------------------
 " Must have options {{{1
 "
@@ -173,3 +190,16 @@ colorscheme sourcerer
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
+"
+"------------------------------------------------------------
+"Lightline 
+
+set noshowmode
+
+let g:lightline = {
+    \ 'colorscheme': 'wombat',
+    \ }
+
+
+
+
