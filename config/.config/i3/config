@@ -175,8 +175,8 @@ bar {
 bindsym $mod+shift+X exec sh ~/bin/lock.sh
 
 #this loads the window configuration from arandr for dual monitors
-exec_always sh /home/mk/.config/screenlayout/dual.sh
-#exec_always sh /home/mk/.config/screenlayout/home.sh
+#exec_always sh /home/mk/.config/screenlayout/dual.sh
+exec_always sh /home/mk/.config/screenlayout/home.sh
 
 #the background
 #
@@ -191,9 +191,9 @@ exec_always feh --bg-fill /home/mk/media/pictures/Green/bright_forest.jpeg
 #exec_always xsetroot -solid \#2b303b
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec amixer --card PCH set Master 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec amixer --card PCH set Master 5%- #decrease sound volume
+bindsym XF86AudioMute exec amixer --card PCH set Master 0% # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
