@@ -6,6 +6,7 @@ This is where I keep all of my configuration files for a series of different pro
 - Better .emacs for emacs.
     - also a better colorscheme tbh
 - lemonbar!!!
+- vim statusline
 - Write a better readme ;)
 - Custom startpage
 - I'll think of more things soon enough 
