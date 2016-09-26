@@ -1,0 +1,41 @@
+! colorscheme: diamo
+! credit /u/Baba_Puh
+
+! special
+*.borderColor:  #211b1d
+*.background:   #211b1d
+*.foreground:   #c1bdbc
+*.cursorColor:  #cccccc
+
+! Black
+*color0:       #4d4045
+*color8:       #7e6971
+
+! Red
+*color1:       #be6169
+*color9:       #be8187
+
+! Green
+*color2:       #3e8c75
+*color10:      #5b8c7e
+
+! Yellow
+*color3:       #aa9e76
+*color11:      #dad3ab
+
+! Blue
+*color4:       #3e668c
+*color12:      #5d758c
+
+! Magenta
+*color5:       #8f575a
+*color13:      #8f696b
+
+! Cyan
+*color6:       #75bfb0
+*color14:      #8bbfb4
+
+! White
+*color7:       #c1bdbc
+*color15: #949190
+
