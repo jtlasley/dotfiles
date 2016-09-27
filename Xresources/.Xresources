@@ -3,7 +3,7 @@
 !#include "/home/mk/.xres/colours/jsphsnkr-color-set"
 
 !#include "/home/mk/.Xresources.d/colors/sourcerer"
-#include "/home/mk/.Xresources.d/colors/diamo"
+#include "/home/mk/.Xresources.d/colors/punpun"
 
 
 URxvt.font: xft:terminus:pixelsize=14
@@ -13,7 +13,7 @@ URxvt.cursorBlink: true
 
 URxvt.scrollBar: false
 
-URxvt.internalBorder: 10
+!URxvt.internalBorder: 10
 
 URxvt.perl-ext-common: default,clipboard  
 URxvt.iso14755: false  
