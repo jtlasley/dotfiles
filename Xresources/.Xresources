@@ -13,7 +13,7 @@ URxvt.cursorBlink: true
 
 URxvt.scrollBar: false
 
-!URxvt.internalBorder: 10
+URxvt.internalBorder: 5
 
 URxvt.perl-ext-common: default,clipboard  
 URxvt.iso14755: false  
