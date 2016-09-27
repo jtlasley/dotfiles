@@ -2,7 +2,8 @@
 !#include "/home/mk/.xres/colours/paper-dark"
 !#include "/home/mk/.xres/colours/jsphsnkr-color-set"
 
-#include "/home/mk/.Xresources.d/colors/sourcerer"
+!#include "/home/mk/.Xresources.d/colors/sourcerer"
+#include "/home/mk/.Xresources.d/colors/diamo"
 
 
 URxvt.font: xft:terminus:pixelsize=14
