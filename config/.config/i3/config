@@ -175,8 +175,8 @@ bar {
 bindsym $mod+shift+X exec sh ~/bin/lock.sh
 
 #this loads the window configuration from arandr for dual monitors
-#exec_always sh /home/mk/.config/screenlayout/dual.sh
-exec_always sh /home/mk/.config/screenlayout/home.sh
+exec_always sh /home/mk/.config/screenlayout/dual.sh
+#exec_always sh /home/mk/.config/screenlayout/home.sh
 
 #the background
 #
@@ -205,9 +205,10 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 
 #ummmm window borders an bar changes
 ## so, changing the background color there changed the border
-
+# color  eeeeee as border color is that onodera white
+# color  7bbac7 is that blue that looks so nice
 set $bg-color 	         #2f343f
-set $border-color 	 #eeeeee
+set $border-color 	 #7bbac7
 set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
@@ -215,10 +216,10 @@ set $urgent-bg-color     #E53935
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $border-color      $text-color          #eeeeee  
-client.unfocused        $iancative-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $iancative-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $bg-color           $border-color      $text-color          $border-color  
+client.unfocused        $iancative-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.focused_inactive $iancative-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $urgent-bg-color
 
 # gaps
 for_window [class="^.*"] border pixel 5
