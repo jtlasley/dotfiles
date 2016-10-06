@@ -1,0 +1,38 @@
+! color theme: comfy
+*.borderColor: #2e2b37
+*.background: #2e2b37
+*.foreground: #c3c7c8
+*.cursorColor: #c3c7c8
+
+! Black
+*color0:        #2e2b37
+*color8:        #463e42
+
+! Red
+*color1:        #6e4a46
+*color9:        #6e4b46
+
+! Green
+*color2:        #554f4f
+*color10:       #554f4f
+
+! Yellow
+*color3:        #847765
+*color11:       #847765
+
+! Blue
+*color4:        #54626d
+*color12:       #54626d
+
+! Magenta
+*color5:        #755a5f
+*color13:       #755a5f
+
+! Cyan
+*color6:        #706c7a
+*color14:       #706c7a
+
+! White
+*color7:        #c3c7c8
+*color15:       #c3c7c8
+
