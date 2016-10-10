@@ -27,7 +27,8 @@
     ;; (color-theme-hober)))
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'gruvbox t)
+;;(load-theme 'gruvbox t)
+(load-theme 'xresources t)
 
 (global-linum-mode t)
 
