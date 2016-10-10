@@ -18,13 +18,16 @@ battery(){
     sed -n p $BATC
 }
 
+bgcolor="#2e2b37"
+fgcolor="#c3c7c8"
+
 # This loop will fill a bufer with info, then output it to stduot
 while :; do
     buf=""
-    buf="${buf} %{r}| CLK:  $(clock) |"
-    buf="${buf} %{r} BAT:  $(battery) |"
+    buf="${buf} %{F$fgcolor}%{B$bgcolor}%{r}| CLK:  $(clock) |%{F-}%{B-}"
+    buf="${buf} %{F$fgcolor}%{B$bgcolor}%{r} BAT:  $(battery) |%{F-}%{B-}"
 
     echo $buf
 
-    sleep 1 # now this will update every second
+    sleep 1 
 done
