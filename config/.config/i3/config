@@ -13,11 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font Haxor 8
-
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+font -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -36,7 +32,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show run 
+bindsym $mod+d exec rofi -show run  -no-config
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -185,8 +181,8 @@ exec_always sh /home/mk/.config/screenlayout/dual.sh
 #exec_always feh --bg-fill /home/mk/media/pictures/Green/bright-forest-modified.png
 #exec_always feh --bg-fill /home/mk/media/pictures/Green/another_forest_bridge.jpeg
 #exec_always feh --bg-fill /home/mk/media/pictures/pond.jpg
-# -----brown----- 
-exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/comfy.jpeg
+
+
 #blue
 #exec_always feh --bg-fill /home/mk/media/pictures/clear_water.jpg
 #grey
@@ -205,6 +201,14 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 # Touchpad controls
 #bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
+
+###############################################################
+####### Color themes 
+
+################ u/Baba_puh: comfy
+# wall paper
+exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/bed.jpeg
+
 #ummmm window borders an bar changes
 ## so, changing the background color there changed the border
 # color  eeeeee as border color is that onodera white
@@ -213,7 +217,8 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 #       - c3c7c8 is the highlight white for comfy.xresources
 # color 2f343f is the black for the arc/flatstudio background/border
 
-set $bg-color 	         #2f343f
+set $bg-color 	         #00ff00
+#set $bg-color 	         #2f343f
 set $border-color 	 #c3c7c8
 set $inactive-bg-color   #2e2b37
 set $text-color          #f3f4f5
@@ -221,13 +226,34 @@ set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 
 # window colors
-#                       border              background         text                 indicator
+# Magiking's basic guide to understanding all of these stupid color settings.
+#   - The client.focused: 
+#       - border: doesn't really show up with these settings. I see it when i am in tabbed mode
+#       - background: This is what I use as the color of the border of the active window
+#       - text: really don't see it
+#       - indicator: to show whether the next window oppened will tile horizontally or vertically.
+#         I don't like it so I set it to the same color as the pixel border
+#   - client.unfocused:
+#       - border: I like for this to be the same color as the terminal background 
+#       - background: this too
+#       - indicator: keep it the same color for blending! 
+#   - client.focused-inactive:
+#       - same as unfocused
+#   -client.urgent:
+#       - I want to switch this to the red color value of colorscheme
+#                       
+#                       border              background         text                 indicator            (for i3 w/regular things enabled)
+#                         |                     |                |                      |
+#                         V                     V                V                      V               (What this translates to for my setup)
+#                       more border         bordrer            text?                plese blend into my border
 client.focused          $bg-color           $border-color      $text-color          $border-color  
-client.unfocused        $iancative-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
-client.focused_inactive $iancative-bg-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $urgent-bg-color
 
-# gaps
+############################################################
+############### gaps
+
 for_window [class="^.*"] border pixel 5
 
 gaps inner 10

@@ -1,2 +1,4 @@
 #i3
-It's pretty cool dude. I even got the indicator to go away now, so the borders look really sweet.
+##What's going on with this?
+Right now i'm cleaning up an documenting my config!
+
