@@ -13,3 +13,6 @@ Say I wanted to chaange colors to jsphnskr's paper theme, I would just add to my
 and remove any other "#include" statements.
 
 All colorschemces stored in .Xresources.d/colours are 5-color schemes from github.com/jsphsnkr, and the ones in .Xresources.d are 16-color schemes.
+
+##todo
+- rofi settings

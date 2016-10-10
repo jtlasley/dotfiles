@@ -1,9 +1,10 @@
-!#include "/home/mk/.Xresources.d/colors/sourcerer"
-!#include "/home/mk/.Xresources.d/colors/punpun"
 #include "/home/mk/.Xresources.d/colors/comfy.xresources"
 
-
-URxvt.font: xft:terminus:pixelsize=14
+*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+!URxvt.font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+URxvt.font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+!URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+!xft:terminus:pixelsize=14
 URxvt.letterspace: 10 
 
 URxvt.cursorBlink: true 
