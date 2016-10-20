@@ -3,6 +3,7 @@
 ! 2016-09-26
 
 ! Misc
+*borderColor: #021b21
 *foreground:  #E8DFD6
 *background:  #021B21
 *cursorColor: #274654
