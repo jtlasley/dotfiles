@@ -207,7 +207,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 
 ################ u/Baba_puh: comfy
 # wall paper
-exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/bed.jpeg
+#exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/bed.jpeg
 
 #ummmm window borders an bar changes
 ## so, changing the background color there changed the border
@@ -217,15 +217,36 @@ exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/bed.jpeg
 #       - c3c7c8 is the highlight white for comfy.xresources
 # color 2f343f is the black for the arc/flatstudio background/border
 
-set $bg-color 	         #00ff00
+#set $bg-color 	         #00ff00
 #set $bg-color 	         #2f343f
-set $border-color 	 #c3c7c8
-set $inactive-bg-color   #2e2b37
+#set $border-color 	 #c3c7c8
+#set $inactive-bg-color   #2e2b37
+#set $text-color          #f3f4f5
+#set $inactive-text-color #676E7D
+#set $urgent-bg-color     #E53935
+
+################ onodera-punpun: onodera
+# wall paper
+exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/shinjuku.png
+
+#ummmm window borders an bar changes
+## so, changing the background color there changed the border
+# color  eeeeee as border color is that onodera white
+# color  7bbac7 is that blue that looks so nice
+# color 554f4f is the light brown
+#       - c3c7c8 is the highlight white for comfy.xresources
+# color 2f343f is the black for the arc/flatstudio background/border
+
+set $bg-color 	         #eeeeee
+set $border-color 	 #eeeeee
+set $inactive-bg-color   #021b21
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 
-# window colors
+####### window colors ######
+# (NOTE: THIS FORMAT SHOULD BE LEFT ALONE IF YOU WANT THE BORDERS TO LOOK THE WAY THEY DO.
+#        JUST CHANGE THE COLOR VALUES)
 # Magiking's basic guide to understanding all of these stupid color settings.
 #   - The client.focused: 
 #       - border: doesn't really show up with these settings. I see it when i am in tabbed mode
@@ -250,6 +271,7 @@ client.focused          $bg-color           $border-color      $text-color      
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $urgent-bg-color
+
 
 ############################################################
 ############### gaps
