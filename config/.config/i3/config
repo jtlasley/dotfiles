@@ -164,7 +164,7 @@ bindsym $mod+r mode "resize"
 
 
 # Start lemonbar with my barfeed
-exec_always sh launch.sh
+exec_always killall lemonbar && sh launch.sh
 
 
 #blurs the screen and locks it with i3lock
