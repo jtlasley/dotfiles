@@ -13,3 +13,5 @@ alias emacs='emacs -nw'
 #alias vim='emacs -nw'  #if it ever really comes to this
 #xrdb
 alias xmerge='xrdb -merge ~/.Xresources'
+#Because of my new PS1
+alias p='pwd'
