@@ -267,3 +267,23 @@ endfunction
 
 
 "colorscheme sourcerer
+"
+"-------------------------- word processing mode-----------------
+"This is based on www.drbunsen.org/writing-in-vim/
+"
+func! WordProcessorMode()
+    setlocal formatoptions=1
+    setlocal noexpandtab
+    map j gj
+    map k gk
+    setlocal spell spelllang=en_us
+    "set thesaurus+=/Users/sbrown/.vim/thesaurus/mthesaur.txt
+    set complete+=s
+    set formatprg=par
+    setlocal textwidth=80
+    setlocal wrap
+    setlocal linebreak
+endfu
+com! WP call WordProcessorMode()
+
+
