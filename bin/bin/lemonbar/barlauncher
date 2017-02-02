@@ -1,0 +1,44 @@
+#!/bin/bash
+
+
+bgdark="#021b21"
+fg="#eeeeee"
+
+font="-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1"
+
+resolution=""
+
+monitors() {
+    state= xrandr | grep HDMI1 | awk '{print $2}'
+    echo 'state assigned'
+    if [ "$state" == "connected" ] 
+    then
+        resolution= xrandr | grep HDMI1 | awk '{print $3}' | sed 's/x.*$//'     
+    fi
+}
+
+
+# Check if lemonbar is already running and kill it if it is
+active() {
+lemonID=$(pidof lemonbar)
+    if [ "$lemonID" != "" ]
+    then 
+        killall lemonbar 
+    fi
+}
+
+
+
+monitors
+active
+
+# start desktops bar
+sh ~/bin/lemonbar/desktop.sh | lemonbar -g 130x24+0+0 -f$font -B$bgdark eDP1 &
+sh ~/bin/lemonbar/desktop.sh | lemonbar -g 130x24+0+0 -f$font -B$bgdark HDMI1 &
+
+
+# start clock bar
+sh ~/bin/lemonbar/clock.sh | lemonbar -g 80x24+0+0 -f$font -B$bgdark eDP1 &
+
+
+
