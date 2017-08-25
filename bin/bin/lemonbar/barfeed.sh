@@ -3,7 +3,7 @@
 # Thanks to zebra for his awesome writeup on lemonbar
 # mk's new lemonbar feeder!
 
-bgcolor="#ef5847"
+bgcolor="#63a690" #cloudy
 fgcolor="#eeeeee"
 
 clock(){
@@ -84,7 +84,8 @@ workspaces () {
 }
 
 
-bgcolor="#ef5847"
+#bgcolor="#ef5847" #onodera
+bgcolor="#63a690" #cloudy
 fgcolor="#eeeeee"
 
 # This loop will fill a bufer with info, then output it to stduot

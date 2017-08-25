@@ -165,7 +165,8 @@ bindsym $mod+r mode "resize"
 
 
 # Start lemonbar with my barfeed
-exec_always killall -q  lemonbar && sh ~/bin/lemonbar/launch.sh
+#exec_always killall -q  lemonbar && sh ~/bin/lemonbar/launch.sh
+exec_always sh ~/bin/lemonbar/launch.sh
 #exec_always ~/bin/lemonbar/barlauncher
 
 
@@ -173,8 +174,9 @@ exec_always killall -q  lemonbar && sh ~/bin/lemonbar/launch.sh
 bindsym $mod+shift+X exec sh ~/bin/lock.sh
 
 #this loads the window configuration from arandr for dual monitors
-exec_always sh /home/mk/.config/screenlayout/dual.sh
-#exec_always sh /home/mk/.config/screenlayout/home.sh
+#exec_always sh /home/mk/.config/screenlayout/dual.sh
+exec_always sh /home/mk/.config/screenlayout/home.sh
+#exec_always sh /home/mk/.config/screenlayout/theater.sh
 
 #the background ####################################################
 #
@@ -186,7 +188,7 @@ exec_always sh /home/mk/.config/screenlayout/dual.sh
 
 
 #blue
-#exec_always feh --bg-fill /home/mk/media/pictures/clear_water.jpg
+exec_always feh --bg-fill /home/mk/media/pictures/clear_water.jpg
 #grey
 #exec_always feh --bg-fill /home/mk/media/pictures/bw-shore.jpeg
 #exec_always xsetroot -solid \#2b303b
@@ -230,7 +232,8 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 ################ onodera-punpun: onodera
 # wall paper
 #exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/shinjuku.png
-exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/brazil-glass.jpeg
+#exec_always feh --bg-fill /home/mk/media/pictures/wallpapers/bonsai.jpg
+
 
 #ummmm window borders an bar changes
 ## so, changing the background color there changed the border
