@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# magiking
+# Opens zathura and the kerningham & ritchie c book
+
+zathura /home/mk/doc/books/'Kerningham, Brian W'/'The C Programming Language (2)'/'The C Programming Language - Kerningham, Brian W.pdf' &
+

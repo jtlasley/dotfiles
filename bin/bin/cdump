@@ -1,0 +1,29 @@
+#!/bin/bash
+
+. grabcolors.sh
+
+clrcodes=("${blk}" "${red}" "${grn}" "${ylw}"
+            "${blu}" "${mag}" "${cyn}" "${wht}" 
+          "${bblk}" "${bred}" "${bgrn}" "${bylw}"
+            "${bblu}" "${bmag}" "${bcyn}" "${bwht}" )
+
+
+
+echo
+for i in {0..8}; do echo -en "#${clrcodes[i]} "; done; echo
+for c in 39 {30..37}; do echo -en "\e[${c}m████████\e[0m"; done; echo
+for c in 39 {30..37}; do echo -en "\e[${c}m████████\e[0m"; done; echo
+for c in 49 {90..97}; do echo -en "\e[${c}m████████\e[0m"; done; echo
+for c in 49 {90..97}; do echo -en "\e[${c}m████████\e[0m"; done; echo
+for i in {9..16}; do echo -en "#${clrcodes[i]} "; done; echo
+echo
+
+
+
+
+
+# ▉▉▉▉▉▉▉▉
+# ▇▇▇▇▇▇▇▇
+
+
+
