@@ -181,14 +181,14 @@ exec_always sh /home/mk/.config/screenlayout/home.sh
 #the background ####################################################
 #
 #green
-#exec_always feh --bg-fill /home/mk/media/pictures/bright_balconies.jpeg
+exec_always feh --bg-fill /home/mk/media/pictures/bright_balconies.jpeg
 #exec_always feh --bg-fill /home/mk/media/pictures/Green/bright-forest-modified.png
 #exec_always feh --bg-fill /home/mk/media/pictures/Green/another_forest_bridge.jpeg
 #exec_always feh --bg-fill /home/mk/media/pictures/pond.jpg
 
 
 #blue
-exec_always feh --bg-fill /home/mk/media/pictures/clear_water.jpg
+#exec_always feh --bg-fill /home/mk/media/pictures/clear_water.jpg
 #grey
 #exec_always feh --bg-fill /home/mk/media/pictures/bw-shore.jpeg
 #exec_always xsetroot -solid \#2b303b
@@ -282,7 +282,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 ############################################################
 ############### gaps
 
-for_window [class="^.*"] border pixel 5
+#for_window [class="^.*"] border pixel 5
 
-gaps inner 10
-gaps outer 10
+#gaps inner 10
+#gaps outer 10
