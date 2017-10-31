@@ -280,7 +280,7 @@ func! WordProcessorMode()
     "set thesaurus+=/Users/sbrown/.vim/thesaurus/mthesaur.txt
     set complete+=s
     set formatprg=par
-    setlocal textwidth=80
+"    setlocal textwidth=80
     setlocal wrap
     setlocal linebreak
 endfu
