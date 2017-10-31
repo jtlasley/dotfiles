@@ -4,14 +4,15 @@ This is where I keep all of my configuration files for a series of different pro
     
 ## TODO
 - Better .emacs for emacs.
-    - also a better colorscheme tbh
+  - now using that .Xresources reader colorsheme  
 - lemonbar!!!
-    - going to start using lemonbuddy. 
-    - be sure to read up on the configuration of the different modules
+    - or no lemonbuddy
+    - just reading that z3bra blogpost
 - vim statusline
     - still don't have the colorscheme that I want though...
 - Write a better readme ;)
 - Custom startpage
-- I'll think of more things soon enough 
 - I need to get a set of themes going
     - maybe manage them with zenbu, or just have a bunch of things commented out.
+    - atm starting to do the whole comments thing
+- How do I configure rofi?
