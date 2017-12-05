@@ -3,7 +3,9 @@ let configs = [
             \"settings",
             \"mappings",
             \"leader",
+            \"functions",
             \"commands",
+            \"autocmds",
             \"plugins",
             \"plugin-settings",
             \"ui"

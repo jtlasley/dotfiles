@@ -15,6 +15,8 @@ set hlsearch  "highlight search results :nohls to turn off highlight
 set ignorecase "case insensitive search, except when using capitals
 set smartcase
 
+"set cursorline "would be cool if it didnt have such a shit highlight color
+
 set backspace=indent,eol,start "less restricted backspacing
 
 set autoindent
@@ -42,7 +44,8 @@ set notimeout ttimeout ttimeoutlen=200 " * Quickly time out on keycodes, but nev
 set pastetoggle=<F11> "use <F11> to toggle btwn paste and nopaste
 
 set wrap " set line wrapping
-"set linebreak " need to try this with code
+set linebreak " need to try this with code. was good enough with .md files
+" try setting something so that it works with a little indent on wrap
 "
 set switchbuf=usetab "sbuff trys to find existing window or tab of buffer first
 set splitright "vsplit open to the right
@@ -51,7 +54,8 @@ set splitbelow "hsplits open below
 "indentation
 " Indentation settings for using 4 spaces instead of tabs.
 " Do not change 'tabstop' from its default value of 8 with this setup.
-set shiftwidth=4
+set shiftround "rounds indent to multiple of 'shiftwidth'
+set shiftwidth=4 
 set softtabstop=4
 set expandtab    " * pretty sure this is the change tab to spaces one
 
