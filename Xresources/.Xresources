@@ -1,6 +1,11 @@
 !#include "/home/mk/.Xresources.d/colors/comfy.xresources"
 !#include "/home/mk/.Xresources.d/colors/punpun"
-#include "/home/mk/.Xresources.d/colors/cloudy"
+#include "/home/mk/.Xresources.d/base-16/base16-ocean-256.Xresources"
+!#include "/home/mk/.Xresources.d/base-16/base16-gruvbox-light-soft-256.Xresources"
+!#include "/home/mk/.Xresources.d/colors/sourcerer"
+!#include "/home/mk/.Xresources.d/crayolo/colors/petal"
+!#include "/home/mk/.Xresources.d/crayolo/colors/forst"
+!#include "/home/mk/.Xresources.d/crayolo/dkeg-colorset"
 
 
 *font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
@@ -14,14 +19,14 @@ URxvt.cursorBlink: true
 
 URxvt.scrollBar: false
 
-URxvt.internalBorder: 5
+URxvt.internalBorder:1
 
-URxvt.perl-ext-common: default,clipboard  
-URxvt.iso14755: false  
-URxvt.keysym.Shift-Control-C: perl:clipboard:copy  
-URxvt.keysym.Shit-Control-V: perl:clipboard:paste 
-URxvt.clipboard.copycmd: xsel -ib
-URxvt.clipboard.pastecmd: xsel -ob 
+!URxvt.perl-ext-common: default,clipboard  
+!URxvt.iso14755: false  
+!URxvt.keysym.Shift-Control-C: perl:clipboard:copy  
+!URxvt.keysym.Shit-Control-V: perl:clipboard:paste 
+!URxvt.clipboard.copycmd: xsel -ib
+!URxvt.clipboard.pastecmd: xsel -ob 
 
 !rofi.color-enabled: true
 !rofi.color-window: #000000, #000000, #000000
