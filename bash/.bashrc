@@ -46,6 +46,8 @@ fi
 # making vim the default editor
 export EDITOR=vim
 # export EDITOR=~/bin/edit
+# setting vi mode for bash
+set -o vi
 
 # Save each command to the history file as it's executed.  #517342
 # This does mean sessions get interleaved when reading later on, but this

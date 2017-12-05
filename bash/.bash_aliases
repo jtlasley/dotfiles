@@ -11,6 +11,8 @@ alias py2='python2'
 #emacs
 #alias emacs='emacs -nw' # time to use graphical emacs!
 #alias vim='emacs -nw'  #if it ever really comes to this
+#vim
+alias v='vim'
 #xrdb
 alias xmerge='xrdb -merge ~/.Xresources'
 #Because of my new PS1
