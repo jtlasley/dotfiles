@@ -19,3 +19,5 @@ alias xmerge='xrdb -merge ~/.Xresources'
 alias p='pwd'
 # For power!
 alias bat='cat /sys/class/power_supply/BAT1/capacity'
+#neofetch
+alias neofetch='neofetch -image wall'
