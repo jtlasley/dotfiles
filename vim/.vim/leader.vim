@@ -6,3 +6,5 @@ map <leader>s f.
 
 map <leader>o :only<CR>
 map <leader>q :close<CR>
+
+map <leader>h :set nohls<CR>

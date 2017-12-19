@@ -60,3 +60,5 @@ set softtabstop=4
 set expandtab    " * pretty sure this is the change tab to spaces one
 
 set noshowmode "lightline requirement I believe. Maybe should go in a plugin file?
+
+set cursorline "highlights the line that the cursor is currently on. Looks really ugly with some colorschemes though :(
