@@ -15,7 +15,7 @@ set hlsearch  "highlight search results :nohls to turn off highlight
 set ignorecase "case insensitive search, except when using capitals
 set smartcase
 
-"set cursorline "would be cool if it didnt have such a shit highlight color
+set cursorline "would be cool if it didnt have such a shit highlight color
 
 set backspace=indent,eol,start "less restricted backspacing
 
@@ -61,4 +61,4 @@ set expandtab    " * pretty sure this is the change tab to spaces one
 
 set noshowmode "lightline requirement I believe. Maybe should go in a plugin file?
 
-set cursorline "highlights the line that the cursor is currently on. Looks really ugly with some colorschemes though :(
+"set cursorline "highlights the line that the cursor is currently on. Looks really ugly with some colorschemes though :(
