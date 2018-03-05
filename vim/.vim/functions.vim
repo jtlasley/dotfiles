@@ -19,6 +19,10 @@ function! PlainText() abort
 
   nnoremap <buffer> j gj
   nnoremap <buffer> k gk
+  nnoremap <buffer> <leader>b a****<ESC>hi
+  nnoremap <buffer> <leader>s :set spell!<CR>
+
+  inoremap <buffer> ;; <ESC>
 
 "  map <localleader>s f. 
 
