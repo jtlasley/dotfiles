@@ -6,3 +6,6 @@ nnoremap <C-l> <C-w>l
 
 " toggle NREDTree buffer
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+" toggle indentLine
+nnoremap <C-i> :IndentLinesToggle<CR>
