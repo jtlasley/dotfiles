@@ -7,4 +7,6 @@ map <leader>s f.
 map <leader>o :only<CR>
 map <leader>q :close<CR>
 
-map <leader>h :set nohls<CR>
+map <leader>h :set hls!<CR>
+
+nnoremap <silent> <leader>m :execute (exists('g:loaded_matchparen') ? 'No' : 'Do') . 'MatchParen'<CR>
