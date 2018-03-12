@@ -26,7 +26,11 @@ alias neofetch='neofetch --image wall'
 #ranger to cd into last directory
 alias rcd='ranger-cd' 
 #cd aliases
+alias keck='cd ~/src/Keck-Work/master/'
 alias pl='cd ~/src/school/progLangs/'
 alias swe='cd ~/doc/school/cs4310/'
 alias ma='cd ~/src/school/cs4330/'
 alias vv='cd ~/src/school/VnV/'
+alias nets='cd ~/src/school/networks/'
+#todo.txt
+alias t='todo.sh'
