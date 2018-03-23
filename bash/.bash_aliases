@@ -34,3 +34,5 @@ alias vv='cd ~/src/school/VnV/'
 alias nets='cd ~/src/school/networks/'
 #todo.txt
 alias t='todo.sh'
+#ncmpcpp to use custom keybindings
+alias ncmpcpp='ncmpcpp -b ~/.config/ncmpcpp/bindings'
