@@ -15,6 +15,7 @@ alias py3='python3'
 #alias vim='emacs -nw'  #if it ever really comes to this
 #vim
 alias v='vim'
+alias vt='vim ~/.todo/todo.txt'
 #xrdb
 alias xmerge='xrdb -merge ~/.Xresources'
 #Because of my new PS1
