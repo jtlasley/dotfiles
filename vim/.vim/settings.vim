@@ -15,7 +15,7 @@ set hlsearch  "highlight search results :nohls to turn off highlight
 set ignorecase "case insensitive search, except when using capitals
 set smartcase
 
-set cursorline "would be cool if it didnt have such a shit highlight color
+"set cursorline "would be cool if it didnt have such a shit highlight color
 
 set backspace=indent,eol,start "less restricted backspacing
 
