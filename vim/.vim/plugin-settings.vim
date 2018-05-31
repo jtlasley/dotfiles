@@ -111,3 +111,5 @@ let g:indentLine_bufNameExclude=['NERD_tree.*']
 nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
 imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
 
+" LatexLivePreview
+let g:livepreview_previewer = 'zathura'

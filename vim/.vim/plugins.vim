@@ -52,6 +52,9 @@ Plugin 'chriskempson/base16-vim'
 "Xresources color scheme
 Plugin 'hickop/vim-terminal-colors'
 
+" For tmux split switching
+Plugin 'christoomey/vim-tmux-navigator'
+
 " Add all plugins before the following line
 call vundle#end()
 filetype plugin indent on
