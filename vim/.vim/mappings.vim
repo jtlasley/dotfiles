@@ -9,3 +9,6 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " toggle indentLine
 nnoremap <C-i> :IndentLinesToggle<CR>
+
+" better laptop esc
+inoremap ;; <ESC>
