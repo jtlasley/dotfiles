@@ -61,4 +61,6 @@ set expandtab    " * pretty sure this is the change tab to spaces one
 
 set noshowmode "lightline requirement I believe. Maybe should go in a plugin file?
 
+set t_Co=256 "keeps 256 colors running in tmux
+
 "set cursorline "highlights the line that the cursor is currently on. Looks really ugly with some colorschemes though :(
