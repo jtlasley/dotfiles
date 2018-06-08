@@ -16,7 +16,7 @@ My .vimrc is broken up into a few different files to make them easier to edit as
 
 ##Word Processing Mode
 - :WP to start
-- `lz=` to call spell checker
+- `z=` to call spell checker
 - use `/` and `?` to your advantage here
  - i.e. `d?` and `d/` to change until the next occurence of a pattern
 - `dt.` to delete to the end of a sentence (or next '.')
