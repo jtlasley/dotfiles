@@ -55,6 +55,10 @@ Plugin 'hickop/vim-terminal-colors'
 " For tmux split switching
 Plugin 'christoomey/vim-tmux-navigator'
 
+" For cool markdown highlighting
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 " Add all plugins before the following line
 call vundle#end()
 filetype plugin indent on
