@@ -11,4 +11,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-i> :IndentLinesToggle<CR>
 
 " better laptop esc
+nnoremap ;; <ESC>
 inoremap ;; <ESC>
+
+" make 'Y' behave more like 'C' and 'D'
+nnoremap Y y$
