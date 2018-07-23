@@ -16,3 +16,7 @@ inoremap ;; <ESC>
 
 " make 'Y' behave more like 'C' and 'D'
 nnoremap Y y$
+
+" 'Opposite' of 'J'
+" separate a line
+nnoremap gJ F<space>r<C-m>
