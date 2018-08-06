@@ -2,7 +2,7 @@
 "win
 "
 " from https://github.com/wincent/wincent/blob/master/roles/dotfiles/files/.vim/autoload/wincent/functions.vim
-function! PlainText() abort
+function! functions#PlainText() abort
   if has('conceal')
     let b:indentLine_ConcealOptionSet=1 " Don't let indentLine overwrite us.
     setlocal concealcursor=nc
@@ -39,7 +39,7 @@ endfunction
 
 "This is based on www.drbunsen.org/writing-in-vim/
 "
-function! WordProcessorMode()
+function! functions#WordProcessorMode()
     setlocal formatoptions=1
     setlocal noexpandtab
     map j gj
@@ -53,7 +53,7 @@ function! WordProcessorMode()
     setlocal linebreak
 endfu
 
-function! ToggleLineNum()
+function! functions#ToggleLineNum()
     " if number is set,
     "     setlocal nonumber
     " else
