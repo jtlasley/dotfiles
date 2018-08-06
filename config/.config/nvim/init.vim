@@ -1,7 +1,6 @@
 set nocompatible
 set termguicolors
 
-
 "Vundle
 filetype off 
 
@@ -52,6 +51,9 @@ Plugin 'dylanaraps/wal.vim'
 
 " base-16 vim themes
 Plugin 'chriskempson/base16-vim'
+
+" gruvbox colorscheme
+Plugin 'morhetz/gruvbox'
 
 "Xresources color scheme
 Plugin 'hickop/vim-terminal-colors'
