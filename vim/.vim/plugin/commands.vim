@@ -1,3 +1,3 @@
-command! PT call PlainText()
+command! PT call functions#PlainText()
 
-command! WP call WordProcessorMode()
+command! WP call functions#WordProcessorMode()
