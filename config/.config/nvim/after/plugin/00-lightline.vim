@@ -103,13 +103,3 @@ endfunction
 "  call lightline#update()
 "endfunction
 
-" indentLine
-let g:indentLine_fileTypeExclude=['help']
-let g:indentLine_bufNameExclude=['NERD_tree.*']
-
-" javacomplete
-nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-
-" LatexLivePreview
-let g:livepreview_previewer = 'zathura'
