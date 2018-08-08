@@ -1,9 +1,11 @@
 !#include "/home/mk/.Xresources.d/colors/comfy.xresources"
 !#include "/home/mk/.Xresources.d/colors/punpun"
-!#include "/home/mk/.Xresources.d/base-16/base16-ocean-256.Xresources"
+!#include "/home/mk/.Xresources.d/base-16/base16-gruvbox-dark-soft-256.Xresources"
+#include "/home/mk/.Xresources.d/colors/gruvbox-dark.xresources"
 !#include "/home/mk/.Xresources.d/base-16/base16-tomorrow-night-256.Xresources"
 !#include "/home/mk/.Xresources.d/base-16/base16-grayscale-dark-256.Xresources"
-#include "/home/mk/.Xresources.d/colors/sourcerer"
+!#include "/home/mk/.Xresources.d/colors/sourcerer"
+!#include "/home/mk/.Xresources.d/colors/etif.xresources"
 !#include "/home/mk/.Xresources.d/crayolo/colors/petal"
 !#include "/home/mk/.Xresources.d/crayolo/colors/forst"
 !#include "/home/mk/.Xresources.d/crayolo/dkeg-colorset"
@@ -13,10 +15,12 @@
 *font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
 !URxvt.font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
 !URxvt.font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
-!URxvt.font: -*-siji-medium-r-normal--10-*-*-*-*-*-*-1
-URxvt.font: -*-tamsyn-medium-r-normal-*-16-*-*-*-*-*-*-1
 !URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
-!xft:terminus:pixelsize=14
+!URxvt.font: -*-siji-medium-r-normal--10-*-*-*-*-*-*-1
+!URxvt.font: -*-tamsyn-medium-r-normal-*-16-*-*-*-*-*-*-1
+URxvt.font: xft:Ubuntu Mono:size=12
+!URxvt.font: xft:Terminus:size=12
+!URxvt.font: xft:creep:size=16
 URxvt.letterspace: 10 
 
 URxvt.cursorBlink: true 
