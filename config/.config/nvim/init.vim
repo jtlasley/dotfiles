@@ -1,5 +1,5 @@
 set nocompatible
-set termguicolors
+"set termguicolors
 
 "Vundle
 filetype off 
@@ -33,6 +33,9 @@ Plugin 'tpope/vim-surround'
 
 " repeat.vim
 Plugin 'tpope/vim-repeat'
+
+" fugitive: git wrapper
+Plugin 'tpope/vim-fugitive'
 
 " lightline.vim
 Plugin 'itchyny/lightline.vim'
