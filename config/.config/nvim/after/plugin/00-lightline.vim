@@ -42,7 +42,7 @@ let g:lightline#colorscheme#sourcerer#palette = lightline#colorscheme#flatten(s:
 let g:lightline = {
     \ 'colorscheme': 'gruvbox',
     \ 'active': {
-    \   'left': [ [ 'filename' ],
+    \   'left': [ [ 'mode'  , 'filename' ],
     \             [ 'readonly', 'fugitive' ] ],
     \   'right': [ [ 'percent', 'lineinfo' ],
     \              [ 'fileencoding', 'filetype' ],
@@ -56,7 +56,6 @@ let g:lightline = {
     \   'filetype': 'WizType',
     \   'fileformat' : 'WizFormat',
     \   'fileencoding': 'WizEncoding',
-    \   'mode': 'WizMode',
     \ },
     \ 'separator': { 'left': '▓▒░', 'right': '░▒▓' },
     \ 'subseparator': { 'left': '▒', 'right': '░' }
