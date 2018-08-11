@@ -1,0 +1,53 @@
+/* vim: set filetype=xdefaults : */
+! rofi config
+
+rofi.color-enabled: true
+
+! -color-window background color, border color, separator color
+! Set window background, border and separator color.
+rofi.color-window: #282828, #458588, #83a598
+
+! -color-normal background, foreground, background alt, highlight background, highlight foreground
+rofi.color-normal: #282828, #ebdbb2, #32302f, #282828, #d79921
+
+! -color-active background, foreground, background alt, highlight background, highlight foreground 
+rofi.color-active: #282828, #ebdbb2, #32302f, #282828, #d79921
+
+! -color-urgent background, foreground, background alt, highlight background, highlight foreground
+rofi.color-urgent: #282828, #ebdbb2, #32302f, #282828, #d79921
+
+! font, duh
+!rofi.font: Ubuntu Mono 10
+rofi.font: tamsyn 10
+
+! height of a field in lines
+rofi.eh: 1
+
+! spacing btwn rows
+! must be on [3 , 50]
+rofi.line-margin: 10
+
+! separator can be solid, dashed, or none
+rofi.separator-style: solid
+
+! me no likey the scroll bar
+rofi.hide-scrollbar: true
+
+! rows of results to display
+rofi.lines: 8
+
+! # of cols of results to display
+rofi.columns: 1
+
+! if width < 100, interpreted as % of screen
+! if width > 100, interpreted as # of pixels
+rofi.width: 50
+
+!inner padding (if it gets huge, it will take up the whole screen)
+rofi.padding: 2
+
+! border-width in pixels
+rofi.bw: 2
+
+!position on screen
+rofi.location: 2
