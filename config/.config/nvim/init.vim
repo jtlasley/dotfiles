@@ -37,6 +37,9 @@ Plugin 'tpope/vim-repeat'
 " fugitive: git wrapper
 Plugin 'tpope/vim-fugitive'
 
+" define 'alternate' files and jump between them
+Plugin 'tpope/vim-projectionist'
+
 " lightline.vim
 Plugin 'itchyny/lightline.vim'
 
