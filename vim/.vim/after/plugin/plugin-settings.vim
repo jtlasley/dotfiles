@@ -40,7 +40,7 @@ let s:p.normal.warning = [ [ s:yellow, s:base01 ] ]
 let g:lightline#colorscheme#sourcerer#palette = lightline#colorscheme#flatten(s:p)
 
 let g:lightline = {
-    \ 'colorscheme': 'gruvbox',
+    \ 'colorscheme': 'sourcerer',
     \ 'active': {
     \   'left': [ [ 'filename' ],
     \             [ 'readonly', 'fugitive' ] ],
